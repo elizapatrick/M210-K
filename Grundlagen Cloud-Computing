@@ -1,0 +1,90 @@
+☁️ Cloud Computing: Einfach Erklärt
+
+1. Wie ist der Begriff Cloud entstanden? Wieso heisst es Cloud?
+   Der Begriff "Cloud" (Wolke) kommt aus alten Netzwerk-Diagrammen. Früher zeichnete man das Internet oder ein unbestimmtes grosses Netzwerk immer als Wolke, weil man die internen Details und die Komplexität darin nicht sehen musste. Es ist ein Symbol für etwas Unsichtbares, das "irgendwo da draussen" liegt und das die notwendigen Dienste und Ressourcen bereitstellt, ohne dass man sich um die Technik im Inneren kümmern muss.
+
+2. Wie wird der Begriff Cloud definiert, z.B. gemäss NIST?
+   Die Definition (nach NIST) besagt vereinfacht: Cloud Computing ist wie ein digitaler Stromanschluss.
+
+Es ist ein Modell, bei dem man über das Internet (Netzzugang) schnell und einfach auf einen gemeinsamen Pool von digitalen Ressourcen (Server, Speicher, Programme) zugreifen kann, sie bei Bedarf nutzen (bedarfsgesteuert) und sie sofort wieder freigeben kann. Man zahlt nur für das, was man wirklich nutzt.
+
+3. Welches sind die 5 Merkmale einer Cloud?
+   Die 5 wesentlichen Merkmale einer echten Cloud (nach NIST) sind:
+
+On-demand Self-Service (Selbst-Service): Man kann Ressourcen (z.B. einen neuen Server) selbständig und sofort über eine Webseite oder App anfordern, ohne mit einem Menschen sprechen zu müssen.
+
+Broad Network Access (Breiter Zugang): Man kann die Cloud-Dienste von überall und mit jedem Gerät (Handy, Laptop) über das Internet nutzen.
+
+Resource Pooling (Ressourcen-Bündelung): Die Ressourcen (Server, Speicher) werden gebündelt und dynamisch auf viele Kunden aufgeteilt. Es ist wie ein grosser Topf, aus dem sich jeder bedienen kann.
+
+Rapid Elasticity (Schnelle Skalierbarkeit): Die Ressourcen können blitzschnell und automatisch erweitert oder reduziert werden, je nachdem, ob man gerade mehr oder weniger Leistung braucht. Die Cloud wächst und schrumpft mit Ihrem Bedarf.
+
+Measured Service (Nutzungsabrechnung): Die Nutzung wird genau gemessen, sodass man nur für die Ressourcen zahlt, die man tatsächlich verbraucht hat (Pay-as-you-go).
+
+4. Welche Cloud Dienstleistungen kennen Sie?
+   Die Dienstleistungen werden in drei Haupt-Kategorien (Modelle) unterteilt, die bestimmen, wie viel Sie selbst verwalten müssen:
+
+IaaS (Infrastructure as a Service): Das ist die Basis. Sie mieten virtuelle Hardware wie Server, Speicher und Netzwerke. Sie müssen sich selbst um das Betriebssystem und alle Programme kümmern. (Beispiel: Sie mieten eine leere Garage.)
+
+PaaS (Platform as a Service): Sie bekommen eine fertige Entwicklungsumgebung. Sie müssen sich nur um Ihre eigene Anwendung und Ihre Daten kümmern, aber nicht um das Betriebssystem oder die Server. (Beispiel: Sie mieten eine eingerichtete Werkstatt, in der Sie sofort loslegen können.)
+
+SaaS (Software as a Service): Sie bekommen die fertige Anwendung über das Internet. Sie nutzen einfach das Programm. (Beispiel: Sie nutzen Office 365, Gmail oder eine Online-Buchhaltungssoftware.)
+
+5. Welche Cloud Anbieter kennen Sie?
+   Die "Hyperscaler" (die grössten Anbieter) dominieren den Markt:
+
+Amazon Web Services (AWS)
+
+Microsoft Azure
+
+Google Cloud Platform (GCP)
+
+Weitere sind z.B. Alibaba Cloud, IBM Cloud und Oracle Cloud.
+
+6. Welche Cloud Deployment Modelle kennen Sie?
+   Diese Modelle beschreiben, wo und für wen die Cloud betrieben wird:
+
+Public Cloud: Gehört und wird betrieben von einem grossen Anbieter für die allgemeine Öffentlichkeit über das Internet (z.B. AWS).
+
+Private Cloud: Eine Cloud, die exklusiv für eine einzige Organisation eingerichtet wird. Sie kann im eigenen Rechenzentrum stehen oder extern gehostet sein.
+
+Community Cloud: Wird von mehreren Organisationen mit ähnlichen Interessen geteilt (z.B. Behörden oder Forschungseinrichtungen).
+
+Hybrid Cloud: Eine Kombination aus zwei oder mehr getrennten Clouds (meistens Private und Public Cloud), die über Technologie miteinander verbunden sind.
+
+7. Was sind Cloud Service Modelle?
+   Cloud Service Modelle (IaaS, PaaS, SaaS) definieren, wie viel Service Sie vom Anbieter bekommen. Sie beschreiben, welche Komponenten der Kunde selbst verwaltet und welche der Anbieter übernimmt. Je höher das Modell (von IaaS zu SaaS), desto weniger müssen Sie sich um die Technik im Hintergrund kümmern.
+
+8. Was ist der wesentliche Unterschied zwischen Monitoring und Logging in der Cloud?
+   Monitoring: Schaut auf die aktuellen Zahlen (Metriken). Es beantwortet die Frage: "Läuft das System gerade gut?" (z.B. "Wie hoch ist die CPU-Auslastung?") Es dient der Echtzeit-Überwachung und schlägt Alarm, wenn etwas schiefläuft.
+
+Logging: Schaut auf die Ereignis-Historie (Textprotokolle). Es beantwortet die Frage: "Was genau ist passiert, als es schiefgelaufen ist?" (z.B. detaillierte Fehlermeldungen). Es dient der Fehleranalyse nach einem Problem (Debugging).
+
+9. Weshalb soll ich Dienste aus der Cloud beziehen? Was sind die Vorteile?
+   Die wichtigsten Vorteile sind:
+
+Skalierbarkeit & Elastizität: Sie können sofort und unbegrenzt Leistung hinzufügen oder wegnehmen – wie Strom aus der Steckdose.
+
+Kostenersparnis: Sie zahlen nur für die tatsächliche Nutzung (Miete), statt grosse Summen im Voraus für eigene Hardware (Kauf) auszugeben.
+
+Hohe Verfügbarkeit: Ihre Dienste fallen seltener aus, da die Anbieter extrem sichere, redundante Rechenzentren betreiben.
+
+Fokus auf Kerngeschäft: Sie müssen sich nicht um Server-Wartung kümmern, sondern können sich auf Ihre eigenen Produkte konzentrieren.
+
+10. Was sind die Nachteile?
+    Die wesentlichen Nachteile sind:
+
+Abhängigkeit vom Anbieter (Vendor Lock-in): Es kann schwierig und teuer sein, zu einem anderen Cloud-Anbieter zu wechseln, wenn man einmal fest bei einem ist.
+
+Kostenkontrolle: Wenn man nicht aufpasst, können die Kosten schnell aus dem Ruder laufen, da es so einfach ist, neue Dienste zu aktivieren.
+
+Sicherheitsbedenken: Sie bleiben für Ihre Daten und die korrekte Einstellung der Dienste verantwortlich.
+
+11. Was beschreibt das Konzept der "Shared Responsibility" (geteilte Verantwortung) im Kontext der Nutzung von Public Cloud Diensten?
+    Siehe auch die einfache Erklärung oben (Mietwohnung):
+
+Das Konzept regelt, wer für die Sicherheit zuständig ist:
+
+Anbieter: Verantwortlich für die Sicherheit DER Cloud (das Gebäude: Rechenzentren, Hardware, Kabel).
+
+Kunde (Sie): Verantwortlich für die Sicherheit IN der Cloud (Ihre Wohnung/Daten: korrekte Konfiguration, Zugriffskontrolle, Passwörter).

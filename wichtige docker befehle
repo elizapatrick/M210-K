@@ -1,0 +1,11 @@
+docker build -f dockerfile.web = 1 datei
+docker build -f dockerfile.db --> db kann man ersetzen = mehrere docker datei 
+docker push
+docker run -d -p 8080:50 --dockername
+docker stop filename
+docker rm
+docker rmi [tag]
+
+
+p= port
+d= detached
